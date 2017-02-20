@@ -140,7 +140,8 @@ public class JFrameWindow extends javax.swing.JFrame {
         );
 
         jComboBox_controllers.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+            @Override
+			public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboBox_controllersActionPerformed(evt);
             }
         });
